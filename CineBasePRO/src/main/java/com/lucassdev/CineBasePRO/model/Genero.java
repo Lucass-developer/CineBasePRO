@@ -1,4 +1,4 @@
 package com.lucassdev.CineBasePRO.model;
 
-public class Filme extends Midia {
+public enum Genero {
 }

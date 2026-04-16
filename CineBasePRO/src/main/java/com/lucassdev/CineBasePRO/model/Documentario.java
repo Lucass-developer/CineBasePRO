@@ -1,4 +1,4 @@
 package com.lucassdev.CineBasePRO.model;
 
-public class Documentario {
+public class Documentario extends Midia {
 }

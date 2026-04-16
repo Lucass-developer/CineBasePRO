@@ -1,4 +1,4 @@
 package com.lucassdev.CineBasePRO.service;
 
-public class ExportarColecao {
+public class ExportarCatalogo {
 }
