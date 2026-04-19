@@ -4,7 +4,12 @@ import org.jspecify.annotations.NonNull;
 import org.springframework.boot.CommandLineRunner;
 
 public class Main implements CommandLineRunner {
-    @Override
-    public void run(String @NonNull ... args) {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");
     }
+
+    @Override
+    public void run(String @NonNull ... args) {}
+
 }

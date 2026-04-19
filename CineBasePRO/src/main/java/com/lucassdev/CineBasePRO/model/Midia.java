@@ -7,8 +7,10 @@ public abstract class Midia {
     private String descricao;
     private String poster;
     private Genero genero;
-    private LocalDate data;
+    private LocalDate dataDeLancamento;
     private Double imdnAvalaiacao;
+    private Ator ator;
+    private Diretor diretor;
 
     public Midia() {}
 
@@ -17,9 +19,33 @@ public abstract class Midia {
         this.descricao = descricao;
         this.poster = poster;
         this.genero = genero;
-        this.data = data;
+        this.dataDeLancamento = data;
         this.imdnAvalaiacao = imdnAvalaiacao;
     }
 
     public void getDetalhes(){}
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public String getPoster() {
+        return poster;
+    }
+
+    public Genero getGenero() {
+        return genero;
+    }
+
+    public LocalDate getData() {
+        return dataDeLancamento;
+    }
+
+    public Double getImdnAvalaiacao() {
+        return imdnAvalaiacao;
+    }
 }
